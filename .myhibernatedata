@@ -1,0 +1,22 @@
+#
+#Wed Jun 24 20:58:06 CST 2009
+genBasicCompId=false
+sessionFactoryName=com.eaie.common.HibernateSessionFactory
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=native
+libInstallFolder=lib
+addLibs2Project=false
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/eaie/hibernate.reveng.xml
+configFile=/eaie/WEB-INF/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=false

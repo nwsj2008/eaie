@@ -1,0 +1,77 @@
+BODY
+{
+	FONT-SIZE: 9pt;
+	text-decoration: none;
+	line-height: 150%;
+	SCROLLBAR-FACE-COLOR: #9E9EC9;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #E1E1EE;
+	SCROLLBAR-3DLIGHT-COLOR: #E1E1EE;
+	SCROLLBAR-ARROW-COLOR: #330000;
+	SCROLLBAR-TRACK-COLOR: #E1E1EE;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	background-color: #E7F1F8;
+}
+TD
+{
+	FONT-SIZE: 9pt;
+}
+Input
+{
+	FONT-SIZE: 9pt;
+	HEIGHT: 20px;
+}
+Button
+{
+	FONT-SIZE: 9pt;
+	HEIGHT: 20px; 
+}
+Select
+{
+	FONT-SIZE: 9pt;
+	HEIGHT: 20px;
+}
+A
+{
+	TEXT-DECORATION: none;
+	color: #000000;
+
+}
+A:hover
+{
+	COLOR: #428EFF;
+	text-decoration: underline;
+
+}
+.border
+{
+	border: 1px solid #E1E1EE;
+}
+.tdbg{
+	background:#C7C7E2;
+	line-height: 120%;
+}
+.topbg
+{
+	background:#9999CC;
+	color: #FFFFFF;
+	font-weight: bold;
+
+}
+.bgcolor {
+	background-color: #0099CC;
+	color: #FFFFFF;
+}
+.title2bg {
+	background-color: #CC99CC;
+}
+.titlebg {
+	font-weight: bold;
+	background-color: #9999CC;
+	line-height: 120%;
+}
+
+.button {
+  BACKGROUND-POSITION: 0px 0px; BORDER-BOTTOM-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #666666; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #666666; BORDER-TOP-WIDTH: 1px; FONT-SIZE: 10px; HEIGHT: 18px; MARGIN: 0px; WIDTH: 25px
+  FONT-FAMILY: ËÎÌו, Verdana, Aril; FONT-SIZE:12px; COLOR: #ffffff; BACKGROUND: #36648B;  
+}

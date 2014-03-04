@@ -1,0 +1,137 @@
+body { background-image: url(backm.jpg); background-color:#E7F1F8; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px} 
+caption{FONT-FAMILY: 宋体; font-size: 14.8px;COLOR: ##003300;font-weight: bold}
+A:link
+{
+    FONT-FAMILY: 宋体; font-size: 9pt;COLOR: #336699;  TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-FAMILY: 宋体; font-size: 8pt;COLOR: #EB125A;  TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-FAMILY: 宋体; font-size: 8pt;COLOR: #000000;   TEXT-DECORATION:  none
+}
+
+.A1:link
+{
+    COLOR: #434343;
+    TEXT-DECORATION: none
+}
+.A1:visited
+{
+    COLOR: #cc8866;
+    TEXT-DECORATION: none
+}
+.A1:hover
+{
+    COLOR: #000000;
+    TEXT-DECORATION:  none
+}
+.td1{
+        FONT-FAMILY:"宋体","Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt; BACKGROUND: #2172C3(蓝);color:#ffffff;
+}
+.td1B{
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt; BACKGROUND:#2172C3;color:#ffffff;
+; font-weight: bold
+}
+
+.td2{
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt;  BACKGROUND: #D3E8FE;
+}
+.td2B{
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt;  BACKGROUND: #D3E8FE;
+; font-weight: bold
+}
+
+.td3 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ; COLOR: #000000; 
+}
+.td3B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ; COLOR: #000000; font-weight: bold
+}
+
+.td4 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ; BACKGROUND: #6BA0F1;color:#ffffff;
+}
+.td4b {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #6BA0F1;color:#ffffff;
+; font-weight: bold
+}
+
+.td5 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #D5EAFF;
+}
+.td5B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #D5EAFF;
+; font-weight: bold
+}
+.td6 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #Ffffff;
+}
+.td6B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #ffffff;
+; font-weight: bold
+}
+.td7 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #6BA0F1;color:#ffffff;
+}
+.td7B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #6BA0F1;color:#ffffff;
+; font-weight: bold
+}
+.td8 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #D5EAFF;
+}
+.td8B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #D5EAFF;
+; font-weight: bold
+}
+.td8 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #6BA0F1;color:#ffffff;
+}
+.td8B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #6BA0F1;color:#ffffff;
+; font-weight: bold
+}
+.td10 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #D5EAFF;
+}
+.td10B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #D5EAFF;
+; font-weight: bold
+}
+.td11 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #6BA0F1;color:#ffffff;
+}
+.td11B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #6BA0F1;color:#ffffff;
+; font-weight: bold
+}
+.td12 {
+        FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #ED5EAFF;
+}
+.td12B {
+        FONT-FAMILY: "宋体", "Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; LINE-HEIGHT: 13pt ;  BACKGROUND: #D5EAFF;
+; font-weight: bold
+}
+.button {
+        BACKGROUND-POSITION: 0px 0px; BORDER-BOTTOM-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #666666; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #666666; BORDER-TOP-WIDTH: 1px; CLIP: ; FONT-SIZE: 10pt; HEIGHT: 18px; MARGIN: 0px; WIDTH: 34px
+FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; COLOR: #ffffff; BACKGROUND: #6BA0F1;  
+}
+.button1 {
+        BACKGROUND-POSITION: 0px 0px; BORDER-BOTTOM-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #666666; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #666666; BORDER-TOP-WIDTH: 1px; CLIP: ; FONT-SIZE: 10pt; HEIGHT: 18px; MARGIN: 0px; WIDTH: 34px
+FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; COLOR: #ffffff; BACKGROUND: #6BA0F1;  
+}
+.button2 {
+        BACKGROUND-POSITION: 0px 0px; BORDER-BOTTOM-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #666666; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #666666; BORDER-TOP-WIDTH: 1px; CLIP: ; FONT-SIZE: 10pt; HEIGHT: 18px; MARGIN: 0px; WIDTH: 34px
+FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; COLOR: #ffffff; BACKGROUND: #6BA0F1;  
+}
+.button3 {
+        BACKGROUND-POSITION: 0px 0px; BORDER-BOTTOM-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #666666; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #666666; BORDER-TOP-WIDTH: 1px; CLIP: ; FONT-SIZE: 10pt; HEIGHT: 18px; MARGIN: 0px; WIDTH: 34px
+FONT-FAMILY: 宋体,"Arial Narrow", "Times New Roman"; FONT-SIZE: 8pt; COLOR: #ffffff; BACKGROUND: #6BA0F1;  
+}
+.text {
+	BORDER-BOTTOM-COLOR: #666666; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: black; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #666666; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: black; BORDER-TOP-WIDTH: 1px
+}
+

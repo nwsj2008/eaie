@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<eaie:items xmlns:eaie="http://www.example.org/eaieSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/eaieSchema eaieSchema.xsd ">  
+    <eaie:name>parameter</eaie:name>  
+    <eaie:description>此文件用来配置网页管理模块中的页面参数</eaie:description>  
+    <eaie:para> 
+        <eaie:para_name>pageBean_news</eaie:para_name>  
+        <eaie:para_value>20</eaie:para_value>  
+        <eaie:para_description>新闻显示页面中每一页显示的文章数</eaie:para_description> 
+    </eaie:para>  
+    <eaie:para> 
+        <eaie:para_name>pageBean_teachers</eaie:para_name>  
+        <eaie:para_value>20</eaie:para_value>  
+        <eaie:para_description>教师显示页面中每一页显示的教师数</eaie:para_description> 
+    </eaie:para>  
+    <eaie:para> 
+        <eaie:para_name>pageBean_student</eaie:para_name>  
+        <eaie:para_value>20</eaie:para_value>  
+        <eaie:para_description>学生显示页面中每一页显示的学生数</eaie:para_description> 
+    </eaie:para> 
+    <eaie:para> 
+        <eaie:para_name>pageBean_vote</eaie:para_name>  
+        <eaie:para_value>15</eaie:para_value>  
+        <eaie:para_description>调查投票中每一页显示的调查数</eaie:para_description> 
+    </eaie:para> 
+    <eaie:para> 
+        <eaie:para_name>pageBean_commie</eaie:para_name>  
+        <eaie:para_value>20</eaie:para_value>  
+        <eaie:para_description>党员列表中每一页显示的党员人数</eaie:para_description> 
+    </eaie:para>
+</eaie:items>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+	<filter>
+		<filter-name>encode</filter-name>
+		<filter-class>com.eaie.filter.EncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>GBK</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<filter-name>vote</filter-name>
+		<filter-class>com.eaie.filter.VoteFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>commie</filter-name>
+		<filter-class>com.eaie.filter.CommieFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>IsLogin</filter-name>
+		<filter-class>com.eaie.filter.IsLoginFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>TmLogin</filter-name>
+		<filter-class>com.eaie.filter.TmLoginFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>IsLogin</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>TmLogin</filter-name>
+		<url-pattern>/tmszsxtstudentnew/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>encode</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>encode</filter-name>
+		<url-pattern>/servlet/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>encode</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>encode</filter-name>
+		<url-pattern>/servlet/inner/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>vote</filter-name>
+		<url-pattern>/servlet/VoteSubmit</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>commie</filter-name>
+		<url-pattern>/party/main/*</url-pattern>
+	</filter-mapping>
+
+	<listener>
+		<listener-class>com.eaie.system.SessionListener</listener-class>
+	</listener>
+
+
+	<servlet>
+		<servlet-name>AddBigClass</servlet-name>
+		<display-name>AddBigClass</display-name>
+		<description>Add a column name for big class</description>
+		<servlet-class>com.eaie.admin.column.AddBigClass</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddSmallClass</servlet-name>
+		<display-name>This is the display name of my J2EE component	</display-name>
+		<description>This is the description of my J2EE component</description>
+		<servlet-class>	com.eaie.admin.column.AddSmallClass	</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteObj</servlet-name>
+		<display-name>This is the display name of my J2EE component	</display-name>
+		<description>This is the description of my J2EE component	</description>
+		<servlet-class>com.eaie.admin.column.DeleteObj</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>EditClass</servlet-name>
+		<display-name>This is the display name of my J2EE component	</display-name>
+		<description>This is the description of my J2EE component</description>
+		<servlet-class>com.eaie.admin.column.EditClass</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>debugjsp</servlet-name>
+		<description>Added to compile JSPs with debug info</description>
+		<servlet-class>	org.apache.jasper.servlet.JspServlet</servlet-class>
+		<init-param><param-name>classdebuginfo</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteNews</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.news.DeleteNews</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SerVote</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.vote.SerVote</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>VoteItem</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.vote.VoteItem</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>VoteSubmit</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.vote.VoteSubmit</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PartyList</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.party.PartyList</servlet-class>
+		
+	</servlet>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.party.Login</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AddLeader</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.leader.AddLeader</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DelLeader</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.leader.DelLeader</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>EditLeader</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.leader.EditLeader</servlet-class>
+	</servlet>	
+	<servlet>
+		<servlet-name>AddCommie</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.commie.AddCommie</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DelCommie</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.commie.DelCommie</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>EditCommie</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>com.eaie.admin.commie.EditCommie</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>AddBigClass</servlet-name>
+		<url-pattern>/servlet/AddBigClass</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddSmallClass</servlet-name>
+		<url-pattern>/servlet/AddSmallClass</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteObj</servlet-name>
+		<url-pattern>/servlet/DeleteObj</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EditClass</servlet-name>
+		<url-pattern>/servlet/EditClass</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>debugjsp</servlet-name>
+		<url-pattern>*.jsp</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteNews</servlet-name>
+		<url-pattern>/servlet/DeleteNews</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SerVote</servlet-name>
+		<url-pattern>/servlet/SerVote</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>VoteItem</servlet-name>
+		<url-pattern>/servlet/VoteItem</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>VoteSubmit</servlet-name>
+		<url-pattern>/servlet/VoteSubmit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PartyList</servlet-name>
+		<url-pattern>/servlet/inner/PartyList</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/servlet/CommieLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AddLeader</servlet-name>
+		<url-pattern>/servlet/AddLeader</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelLeader</servlet-name>
+		<url-pattern>/servlet/DelLeader</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EditLeader</servlet-name>
+		<url-pattern>/servlet/EditLeader</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCommie</servlet-name>
+		<url-pattern>/servlet/AddCommie</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelCommie</servlet-name>
+		<url-pattern>/servlet/DelCommie</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EditCommie</servlet-name>
+		<url-pattern>/servlet/EditCommie</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>15</session-timeout>
+	</session-config>
+	
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error/PageNotFound.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>505</error-code>
+		<location>/error/InternalError.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>*</exception-type>
+		<location>/error/Error.jsp</location>
+	</error-page>
+
+</web-app>
